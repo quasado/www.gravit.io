@@ -1,0 +1,127 @@
+@basic-color: #00a99d;
+
+.colorblock{
+  .button{
+    background: darken(@basic-color, 15%);
+  }
+
+  .button:hover{
+    background: lighten(@basic-color, 5%);
+  }
+}
+
+
+.mainmenu{
+  .menuwrapper{
+    .logoblock{
+      .companyname{
+        color: darken(@basic-color, 15%);
+      }
+    }
+
+    .menulist{
+      .items{
+        .menuitem{
+          a{
+            color: #fff;
+          }
+
+          a:hover{
+            background: darken(@basic-color, 15%);
+          }
+        }
+      }
+    }
+  }
+}
+
+.socialblock{
+  .socialicon{
+    i{
+      color: darken(@basic-color, 15%);
+    }
+  }
+}
+
+.homeblock{
+  #description-home{
+    .wrapper{
+      .developer{
+        color: darken(@basic-color, 15%);
+      }
+      .mobilebrands{
+        .mobileicon{
+          i{
+            color: darken(@basic-color, 15%);
+          }
+        }
+      }
+    }
+  }
+}
+
+.appsblock{
+  .apps{
+    .slider{
+      .navigation{
+        display: none;
+      }
+      .rotator{
+        .slide{
+          display: none;
+        }
+
+        .active{
+          display: block;
+        }
+      }
+    }
+  }
+}
+
+.featuresblock{
+  .featurecontainer{
+    .wrapper{
+      .featurelogo{
+        border: none;
+      }
+    }
+  }
+}
+
+.teamblock{
+  .block-container{
+    .teamcontainer{
+      .personal{
+        .photo{
+          border: none;
+          border-bottom: 2px solid @basic-color;
+        }
+      }
+    }
+  }
+}
+
+.twitterblock{
+  .block-container{
+    .messages-container{
+      .message{
+        display: none;
+      }
+      .message.active{
+        display: block;
+      }
+    }
+  }
+}
+
+.contactsblock{
+  .block-container{
+    background: darken(@basic-color, 5%);
+    .wrapper{
+      .mailbutton{
+        display: none;
+      }
+    }
+  }
+}

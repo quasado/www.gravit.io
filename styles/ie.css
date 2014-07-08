@@ -1,0 +1,52 @@
+.colorblock .button {
+  background: #005d56;
+}
+.colorblock .button:hover {
+  background: #00c3b5;
+}
+.mainmenu .menuwrapper .logoblock .companyname {
+  color: #005d56;
+}
+.mainmenu .menuwrapper .menulist .items .menuitem a {
+  color: #fff;
+}
+.mainmenu .menuwrapper .menulist .items .menuitem a:hover {
+  background: #005d56;
+}
+.socialblock .socialicon i {
+  color: #005d56;
+}
+.homeblock #description-home .wrapper .developer {
+  color: #005d56;
+}
+.homeblock #description-home .wrapper .mobilebrands .mobileicon i {
+  color: #005d56;
+}
+.appsblock .apps .slider .navigation {
+  display: none;
+}
+.appsblock .apps .slider .rotator .slide {
+  display: none;
+}
+.appsblock .apps .slider .rotator .active {
+  display: block;
+}
+.featuresblock .featurecontainer .wrapper .featurelogo {
+  border: none;
+}
+.teamblock .block-container .teamcontainer .personal .photo {
+  border: none;
+  border-bottom: 2px solid #00a99d;
+}
+.twitterblock .block-container .messages-container .message {
+  display: none;
+}
+.twitterblock .block-container .messages-container .message.active {
+  display: block;
+}
+.contactsblock .block-container {
+  background: #009085;
+}
+.contactsblock .block-container .wrapper .mailbutton {
+  display: none;
+}
