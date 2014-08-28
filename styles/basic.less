@@ -584,29 +584,6 @@ b {
         float: right;
         clear: both;
         margin: 2em 0;
-
-        .linkicon {
-          display: inline-block;
-          float: left;
-          position: relative;
-          font-size: 48px;
-          width: 1.5em;
-          height: 1em;
-
-          i {
-            position: absolute;
-            color: rgba(0, 0, 0, 0.4);
-            .transitions(0.5s);
-            left: 0;
-            border-radius: 50%;
-
-          }
-
-          i:hover {
-            color: #fff;
-            .rotatescale(360deg, 1.2);
-          }
-        }
       }
     }
   }
@@ -812,8 +789,36 @@ b {
 }
 
 .priceblock {
+
   .block-container {
     text-align: center;
+
+    .links {
+      margin-top: 40px;
+
+      .linkicon {
+        display: inline-block;
+        position: relative;
+        font-size: 60px;
+        width: 1.5em;
+        height: 1em;
+        color: @background-color;
+
+        i {
+          position: absolute;
+          color: rgba(255, 255, 255, 0.4);
+          .transitions(0.5s);
+          left: 0;
+          border-radius: 50%;
+
+        }
+
+        i:hover {
+          color: #fff;
+          .rotatescale(360deg, 1.2);
+        }
+      }
+    }
 
     .pricetable {
       display: inline-block;
